@@ -12,6 +12,8 @@
     
     <title>
         
+            标签: Linux | 
+        
         罗建东的技术博客
     </title>
 
@@ -65,7 +67,7 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://ljd1995.github.io">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="罗建东的技术博客">
+    <meta property="og:title" content="标签: Linux | 罗建东的技术博客">
     <meta property="og:image" content="/img/favicon.png" />
     <meta property="og:description" content="技术宅">
     
@@ -73,7 +75,7 @@
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="罗建东的技术博客">
+    <meta name="twitter:title" content="标签: Linux | 罗建东的技术博客">
     <meta name="twitter:description" content="技术宅">
     <meta name="twitter:image" content="/img/favicon.png">
     <meta name="twitter:card" content="summary_large_image" />
@@ -81,7 +83,7 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://ljd1995.github.io/about.html" />
+        <link rel="canonical" href="http://ljd1995.github.io/tags/Linux/index.html" />
     
 
     <!-- Structured-data for SEO -->
@@ -267,184 +269,106 @@
                         </button>
                     
 
-                    <!-- Post TOC -->
+                    <!-- Index Module -->
+<div class="material-index mdl-grid">
+    
+    <div class="locate-thumbnail-symbol"></div>
 
+    <!-- Pin on top -->
+    
+        
+    
 
-<!-- Layouts -->
-
-    <!-- Post Module -->
-    <div class="material-post_container">
-
-        <div class="material-post mdl-grid">
-            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
-
-                <!-- Post Header(Thumbnail & Title) -->
-                
-    <!-- Paradox Post Header -->
+    <!-- Normal Post -->
+    
+        
+            
+                <!-- Paradox Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post Thumbnail -->
     
         
             <!-- Random Thumbnail -->
             <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-            <script type="text/ls-javascript" id="post-thumbnail-script">
-    var randomNum = Math.floor(Math.random() * 19 + 1);
+        
+    
 
-    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+        <!-- Post Title -->
+        <p class="article-headline-p"><a href="/2017/11/18/linux2work/">我所知道的linux运维相关知识</a></p>
+    </div>
+
+    <!-- Post Excerpt -->
+    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+        
+            Linux100个命令掌握命令语法和命令输出内容的各个关键词代表的含义，grep   awk   sed这三剑客要特别熟悉，iostat  vmstat tcpdump,sar等要熟悉
+linux下搭建服务，安装软件常用必会的LANMP（Apache，nginx，mysql，PHP），包括配置Apache/nginx/mysql的ssl支持，java开发环境，java中间件（Jboss，Tomcat，resin, Websphere，Weblogic）,Jenkins，svn，git，smb,ftp(vsftpd)，drbd,redis，MongoDB，memCached，熟悉这些软件的安装（源码安装，yum安装，mysql还有二进制安装），各种服务的配置文件如何配置（nginx.conf，my.cnf,vsftpd.conf等等）
+集群配置：
+负载均衡（LB）集群：LVS（四层负载均衡，DR模式，NAT模式），Nginx（四层（1.9.0版本开始支持）+七层负载均衡），HaProxy（四层及七层负载均衡），分析它们的区别，它们能承受的并发量
+高可用（HA）集群：keepalived，HeartBeat
+
+shell编程
+lnmp一键搭建脚本
+源码安装的nginx启动脚本
+        
+        &nbsp;&nbsp;&nbsp;
+        <span>
+            <a href="/2017/11/18/linux2work/" target="_self">阅读全文</a>
+        </span>
+    </div>
+    <!-- Post_entry Info-->
+    <div id="post_entry-info">
+        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
+            <!-- Author Avatar -->
+            <div id="author-avatar">
+                <img src="/img/avatar.png" width="44px" height="44px" alt="罗建东's avatar">
+            </div>
+            <div>
+                <strong>罗建东</strong>
+                <span>11月 18, 2017</span>
+            </div>
+        </div>
+        <div id="post_entry-right-info">
+            <!-- Category -->
+            <span class="post_entry-category">
+                
+            </span>
+
+            
+
+            
+
+            <!-- Post Views -->
+            <span class="post_entry-views">
+            </span>
+        </div>
+    </div>
+</div>
+
+            
+            
+        
+    
+
+    
+
+    
+        <script type="text/ls-javascript" id="thumbnail-script">
+    var randomNum;
+
+    var locatePost = $('.locate-thumbnail-symbol').next();
+    for(var i = 0; i < 10; i++) {
+        randomNum = Math.floor(Math.random() * 19 + 1);
+
+        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
+        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
     $('.post_thumbnail-random').addClass('lazy');
+
+        locatePost = locatePost.next();
+    }
 </script>
 
-        
-    
-            <p class="article-headline-p">
-                
-            </p>
-        </div>
-
-
-
-
-
-                
-                    <!-- Paradox Post Info -->
-                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
-
-    <!-- Author Avatar -->
-    <div id="author-avatar">
-        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
-    </div>
-    <!-- Author Name & Date -->
-    <div>
-        <strong>罗建东</strong>
-        <span>11月 18, 2017</span>
-    </div>
-
-    <div class="section-spacer"></div>
-
-    <!-- Favorite -->
-    <!--
-        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
-            <i class="material-icons" role="presentation">favorite</i>
-            <span class="visuallyhidden">favorites</span>
-        </button>
-    -->
-
-    <!-- Qrcode -->
-    
-        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-    <i class="material-icons" role="presentation">devices other</i>
-    <span class="visuallyhidden">devices other</span>
-</button>
-<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
-    <li class="mdl-menu__item">在其它设备中阅读本文章</li>
-    
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAAB50lEQVR42u3aQVLDMBAEQP//0/AAiJlZlUlstU4UpIQ6hymtdo+vR6wDAwMDAwMDA+NjGEe8ftko/uv5nrMzYGBg7Mb4I9p+bvHiEO0+S2fAwMDYknEeiPlRzj+f7H/+GQwMDIz83+SBm8AwMDAwrmOcF6LnO2NgYGBcUcS2j2vJf3lDLY6BgXFDRvuIf8XP/9rfwMDAuBWjHnEYlaNtvF4+M4KBgXErRh58+XGTZkAe+hgYGBjtUWbF5+y6WRSxGBgYj2bk8ZpHcN4MaEMWAwMDY6W8zBuWbSn7cgcMDIwtGXm85le6vKytR80wMDC2Ycwuajl7NnYWNSEwMDC2YbSBOxs/zUO5CHEMDIxtGLNHt5Vhi7ZkjYpYDAyMDRhtu3E2PFFf/trAxcDAeChj5fm+HZJY+ZrqIhYDA+NxjDaCky8ivya2gY6BgbEzo73GJaG5Er71sAUGBsYGjBXY7BFtpWDGwMDYh9GuWcuzHeOIghgDA2MbxhGvGWkW4sMiFgMD49GM/GLXXhbz57m8AMbAwNiZ0Y5HrP9m9myHgYGBMWsPtGVwXirXr4YYGBgYozJ16VntusDFwMC4IaNtQOZPb23sJo1SDAyM3Rh5YyA/Vr7DkIqBgbEN474LAwMDAwMDA+Ot6xunlXiVz5j6ZgAAAABJRU5ErkJggg==">
-    
-</ul>
-    
-
-    <!-- Tags (bookmark) -->
-    
-    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-        <i class="material-icons" role="presentation">bookmark</i>
-        <span class="visuallyhidden">bookmark</span>
-    </button>
-    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
-        <li class="mdl-menu__item">
-        
-    </ul>
-    
-
-    <!-- Share -->
-    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-    <i class="material-icons" role="presentation">share</i>
-    <span class="visuallyhidden">share</span>
-</button>
-<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
-    
-
-    
-        
-            <!-- Busuanzi Views -->
-            <a class="post_share-link" href="#">
-                <li class="mdl-menu__item">
-                    <span id="busuanzi_container_page_pv">
-                        <span id="busuanzi_value_page_pv"></span>&nbsp;浏览量
-                    </span>
-                </li>
-            </a>
-        
-    
-
-    <!-- Share Weibo -->
-    
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=&url=http://ljd1995.github.io/about.html&pic=&searchPic=false&style=simple" target="_blank">
-            <li class="mdl-menu__item">
-                分享到微博
-            </li>
-        </a>
-    
-
-    <!-- Share Twitter -->
-    
-
-    <!-- Share Facebook -->
-    
-
-    <!-- Share Google+ -->
-    
-
-    <!-- Share LinkedIn -->
-    
-
-    <!-- Share QQ -->
-    
-        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=罗建东的技术博客&title=&summary=技术宅&pics=http://ljd1995.github.io/img/favicon.png&url=http://ljd1995.github.io/about.html" target="_blank">
-            <li class="mdl-menu__item">
-                分享到 QQ
-            </li>
-        </a>
-    
-
-    <!-- Share Telegram -->
-    
-</ul>
-
-</div>
-
-                
-
-                <!-- Post Content -->
-                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
-    
-        
-    
-
     
 </div>
-
-
-                
-
-                <!-- Post Comments -->
-                
-                    
-                
-            </div>
-
-            <!-- Post Prev & Next Nav -->
-            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
-    <!-- Prev Nav -->
-    
-
-    <!-- Section Spacer -->
-    <div class="section-spacer"></div>
-
-    <!-- Next Nav -->
-    
-</nav>
-
-        </div>
-    </div>
-
 
 
                     
