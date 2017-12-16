@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ljd1995.github.io/"/>
-  <updated>2017-11-19T09:16:20.096Z</updated>
+  <updated>2017-12-16T07:53:55.237Z</updated>
   <id>http://ljd1995.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>&#39;python使用xlwt操作Excel，字体、单元格设置等知识&#39;</title>
+    <link href="http://ljd1995.github.io/2017/12/16/learn-python-xlwt-md/"/>
+    <id>http://ljd1995.github.io/2017/12/16/learn-python-xlwt-md/</id>
+    <published>2017-12-16T07:53:55.000Z</published>
+    <updated>2017-12-16T07:53:55.237Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;转载自：&lt;a href=&quot;http://blog.sina.com.cn/s/blog_5357c0af01019gjo.html&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="http://ljd1995.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="http://ljd1995.github.io/tags/python/"/>
+    
+      <category term="xlwt" scheme="http://ljd1995.github.io/tags/xlwt/"/>
+    
+  </entry>
   
   <entry>
     <title>使用python模拟知乎获取二维码登录并保存cookie</title>

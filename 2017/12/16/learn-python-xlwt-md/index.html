@@ -44,7 +44,7 @@
     
     <title>
         
-            学习感悟 | 
+            &#39;python使用xlwt操作Excel，字体、单元格设置等知识&#39; | 
         
         罗建东的技术博客
     </title>
@@ -55,7 +55,7 @@
 
     <meta name="format-detection" content="telephone=no"/>
     <meta name="description" itemprop="description" content="技术宅">
-    <meta name="keywords" content="Linux,Python,运维,Android,study">
+    <meta name="keywords" content="Linux,Python,运维,Android,python,xlwt">
     <meta name="theme-color" content="#0097A7">
 
     <!-- Disable Fucking Bloody Baidu Tranformation -->
@@ -221,7 +221,7 @@
     <!-- WebAPP Icons -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="罗建东的技术博客">
-    <meta name="msapplication-starturl" content="http://ljd1995.github.io/2017/11/19/studythinking/">
+    <meta name="msapplication-starturl" content="http://ljd1995.github.io/2017/12/16/learn-python-xlwt-md/">
     <meta name="msapplication-navbutton-color" content="#0097A7">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="罗建东的技术博客">
@@ -240,16 +240,16 @@
     
 
     <!-- The Open Graph protocol -->
-    <meta property="og:url" content="http://ljd1995.github.io/2017/11/19/studythinking/">
+    <meta property="og:url" content="http://ljd1995.github.io/2017/12/16/learn-python-xlwt-md/">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="学习感悟 | 罗建东的技术博客">
+    <meta property="og:title" content="&#39;python使用xlwt操作Excel，字体、单元格设置等知识&#39; | 罗建东的技术博客">
     <meta property="og:image" content="/img/favicon.png">
     <meta property="og:description" content="技术宅">
-    <meta property="og:article:tag" content="study"> 
+    <meta property="og:article:tag" content="python"> <meta property="og:article:tag" content="xlwt"> 
 
     
-        <meta property="article:published_time" content="Sun Nov 19 2017 10:55:28 GMT+0800">
-        <meta property="article:modified_time" content="Sun Nov 19 2017 11:08:38 GMT+0800">
+        <meta property="article:published_time" content="Sat Dec 16 2017 15:53:55 GMT+0800">
+        <meta property="article:modified_time" content="Sat Dec 16 2017 15:53:55 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -257,7 +257,7 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://ljd1995.github.io/2017/11/19/studythinking/index.html" />
+        <link rel="canonical" href="http://ljd1995.github.io/2017/12/16/learn-python-xlwt-md/index.html" />
     
 
     <!-- Structured-data for SEO -->
@@ -269,10 +269,10 @@
 {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "mainEntityOfPage": "http://ljd1995.github.io/2017/11/19/studythinking/index.html",
-    "headline": "学习感悟",
-    "datePublished": "Sun Nov 19 2017 10:55:28 GMT+0800",
-    "dateModified": "Sun Nov 19 2017 11:08:38 GMT+0800",
+    "mainEntityOfPage": "http://ljd1995.github.io/2017/12/16/learn-python-xlwt-md/index.html",
+    "headline": "'python使用xlwt操作Excel，字体、单元格设置等知识'",
+    "datePublished": "Sat Dec 16 2017 15:53:55 GMT+0800",
+    "dateModified": "Sat Dec 16 2017 15:53:55 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "罗建东",
@@ -290,7 +290,7 @@
             "url": "/img/favicon.png"
         }
     },
-    "keywords": ",studyLinux,Python,运维,Android",
+    "keywords": ",python,xlwtLinux,Python,运维,Android",
     "description": "技术宅",
 }
 </script>
@@ -379,7 +379,7 @@
         
     
             <p class="article-headline-p">
-                学习感悟
+                'python使用xlwt操作Excel，字体、单元格设置等知识'
             </p>
         </div>
 
@@ -398,7 +398,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>罗建东</strong>
-        <span>11月 19, 2017</span>
+        <span>12月 16, 2017</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -420,7 +420,7 @@
 <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
     <li class="mdl-menu__item">在其它设备中阅读本文章</li>
     
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACYElEQVR42u3aQXLDIBAEQP//08kDUlFmB4FVTuvkskuI5qDFw76+Pvp64eHh4eHh4eHhPYz3iq+fd/02zq8Pvhzt56/l3PDw8PCO8P541QYTyh+fjL80Nzw8PLyDvOsXdA5Lxr9euG5ueHh4eM/nTb9Jttp4eHh4/4c3fa13RQIPDw/vabzkD38yobwwXAcWb8ha8PDw8GJeHjGc/3z0fA8PDw8v4I1bmuLodtoKkBeDjT1leHh4eAFv+vj8cGsa6U4bFPDw8PCeyZu2YeXRQ7cQ5T8GPDw8vFt5K61RSdnoItpu+fDw8PDO8HY3SHXjrGyv8fDw8M7wVr65nlC3ZPmGGw8PD+88Lz92mm61x9MKvolCDTw8PLzNvOkQ3ev++t7kEG4QguDh4eFt5nWx7LSptItr87vw8PDwzvPybfH0MKzbZE+fjoeHh3eeNzheWniV714IPDw8vDO87pB++rkLasvjNDw8PLzNvJVWgHVM3vKVxxx4eHh4u3nTwpC3DnSBQr7h3lL38PDw8GJePty0maBbrAEmCSPw8PDwNvC6jW8XUnRxxs1bajw8PLxbeV0B6JoJ8jav/MgNDw8P7yQvKQDd5rsLI8rn4uHh4W3mTa+Vo69uuskS4OHh4Z3kveJr2nCwvgUvR8PDw8M7wssPmfKYdbocSTgSlRA8PDy8g7zpof5KANGFEUs9ZXh4eHhv5XXhRU7NZ1Wm1Hh4eHhv4k2PtXJGHhlvLAx4eHh4N4UR05KQl4rbNuh4eHh4R3h5BJDHCisBx7Rc4eHh4Z3kfd6Fh4eHh4eHh4f3gOsbbEbOSkyYs2UAAAAASUVORK5CYII=">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAD2CAAAAADAeSUUAAAC10lEQVR42u3aUU5jQQwEwNz/0rsHQIRuO6Bkpt4XApJMDRKW2378u/J5YGNjY2NjY2NjY78l+xE/X1/13fs8/53vfpp/f3hmbGxs7KPZP/zrf4rMAcklJozhmbGxsbEvYCcf0x4lubLnr22vCRsbGxs7YbfFJm9v2tKIjY2Njb1hP28DZoFUXrSwsbGxsWcBTVKcZu+zubhfz9KwsbGx356dD03f5+s/nW9jY2NjvzG7ffJGYhP656s8xcmxsbGxD2X/RpSfgGdFaHbR2NjY2DewN/FQMiR4bczULglhY2Nj38DehDV5uzJrLWbXt5pvY2NjY38g+/nSZBsJtWWpLW/JdWBjY2Pfw85D/6TAtJe1f5/VoBcbGxv7CHYO3pe35ND70W8dKmFjY2Mfx37tAHh2xNnnDrM0bGxs7A9nzwL9vNgkyz15eLQqotjY2NiHspNmow3iNwOAzTWtdk6xsbGxP5adlJzZ8DU57mYZKA+nsLGxsc9mz5qBNlqaLfG07UfdimBjY2Mfwd4XjFnr0hattv3AxsbGxp6t2mzWfdpoqb1EbGxs7FPZm/WaWXyfj2bbgvrD+bGxsbGPZufhUXspm0M/yme1soONjY39sew2ZN8s9+TFKS94ycAAGxsb+x52O1591Th284nFCBkbGxv7UPamtchj/bwQ5lFXfUJsbGzsK9n74D4vk5shRHJmbGxs7BvYbUyTD3db0qY0vmDQi42Njf2x7Da+yZuNtlDln5gETNjY2Nhns2fj2FcNZTeM+g+AjY2NfSh7tnCZBD3tO+TjivzisLGxse9hb6L/9lL2VzwcHmBjY2NfwE7agCSEykvUb1zZy6Yi2NjY2Bew24HBbMDQtiX1VAQbGxv7YnbbkCTNzH6c/KetCDY2NvabsZOC0a7d5EfcD4l/OBs2Njb20ezZ6kwbMO2Xb1ZjBmxsbOxD2fc82NjY2NjY2NjY2G/z/AcYW1z/wz0CXgAAAABJRU5ErkJggg==">
     
 </ul>
 
@@ -434,7 +434,7 @@
     </button>
     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
         <li class="mdl-menu__item">
-        <a class="post_tag-link" href="/tags/study/">study</a>
+        <a class="post_tag-link" href="/tags/python/">python</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/xlwt/">xlwt</a>
     </ul>
     
 
@@ -462,7 +462,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=学习感悟&url=http://ljd1995.github.io/2017/11/19/studythinking/index.html&pic=http://ljd1995.github.io/img/favicon.png&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=&#39;python使用xlwt操作Excel，字体、单元格设置等知识&#39;&url=http://ljd1995.github.io/2017/12/16/learn-python-xlwt-md/index.html&pic=http://ljd1995.github.io/img/favicon.png&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 分享到微博
             </li>
@@ -483,7 +483,7 @@
 
     <!-- Share QQ -->
     
-        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=罗建东的技术博客&title=学习感悟&summary=技术宅&pics=http://ljd1995.github.io/img/favicon.png&url=http://ljd1995.github.io/2017/11/19/studythinking/index.html" target="_blank">
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=罗建东的技术博客&title=&#39;python使用xlwt操作Excel，字体、单元格设置等知识&#39;&summary=技术宅&pics=http://ljd1995.github.io/img/favicon.png&url=http://ljd1995.github.io/2017/12/16/learn-python-xlwt-md/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 QQ
             </li>
@@ -502,7 +502,136 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        
+        <blockquote>
+<p>转载自：<a href="http://blog.sina.com.cn/s/blog_5357c0af01019gjo.html" target="_blank" rel="noopener">http://blog.sina.com.cn/s/blog_5357c0af01019gjo.html</a></p>
+</blockquote>
+<p><strong>最简单的例子</strong></p>
+<pre><code class="python">import xlwtworkbook = xlwt.Workbook(encoding = &#39;utf-8&#39;)
+worksheet = workbook.add_sheet(&#39;My Worksheet&#39;)
+worksheet.write(0, 0, label = &#39;Row 0, Column 0 Value&#39;)
+workbook.save(&#39;Excel_Workbook.xls&#39;)
+</code></pre>
+<p><strong>格式化单元格的内容</strong></p>
+<pre><code class="python">import xlwt
+workbook = xlwt.Workbook(encoding = &#39;ascii&#39;)
+worksheet = workbook.add_sheet(&#39;My Worksheet&#39;)
+font = xlwt.Font() # Create the Font
+font.name = &#39;Times New Roman&#39;
+font.bold = True
+font.underline = True
+font.italic = True
+style = xlwt.XFStyle() # Create the Style
+style.font = font # Apply the Font to the Style
+worksheet.write(0, 0, label = &#39;Unformatted value&#39;)
+worksheet.write(1, 0, label = &#39;Formatted value&#39;, style) # Apply the Style to the Cell
+workbook.save(&#39;Excel_Workbook.xls&#39;)
+</code></pre>
+<p><strong>字体对象的属性</strong></p>
+<pre><code class="python">font.bold = True # May be: True, False
+font.italic = True # May be: True, False
+font.struck_out = True # May be: True, False
+font.underline = xlwt.Font.UNDERLINE_SINGLE # May be: UNDERLINE_NONE, UNDERLINE_SINGLE, UNDERLINE_SINGLE_ACC, UNDERLINE_DOUBLE, UNDERLINE_DOUBLE_ACC
+font.escapement = xlwt.Font.ESCAPEMENT_SUPERSCRIPT # May be: ESCAPEMENT_NONE, ESCAPEMENT_SUPERSCRIPT, ESCAPEMENT_SUBSCRIPT
+font.family = xlwt.Font.FAMILY_ROMAN # May be: FAMILY_NONE, FAMILY_ROMAN, FAMILY_SWISS, FAMILY_MODERN, FAMILY_SCRIPT, FAMILY_DECORATIVE
+font.charset = xlwt.Font.CHARSET_ANSI_LATIN # May be: CHARSET_ANSI_LATIN, CHARSET_SYS_DEFAULT, CHARSET_SYMBOL, CHARSET_APPLE_ROMAN, CHARSET_ANSI_JAP_SHIFT_JIS, CHARSET_ANSI_KOR_HANGUL, CHARSET_ANSI_KOR_JOHAB, CHARSET_ANSI_CHINESE_GBK, CHARSET_ANSI_CHINESE_BIG5, CHARSET_ANSI_GREEK, CHARSET_ANSI_TURKISH, CHARSET_ANSI_VIETNAMESE, CHARSET_ANSI_HEBREW, CHARSET_ANSI_ARABIC, CHARSET_ANSI_BALTIC, CHARSET_ANSI_CYRILLIC, CHARSET_ANSI_THAI, CHARSET_ANSI_LATIN_II, CHARSET_OEM_LATIN_I
+font.colour_index = ?
+font.get_biff_record = ?
+font.height = 0x00C8 # C8 in Hex (in decimal) = 10 points in height.
+font.name = ?
+font.outline = ?
+font.shadow = ?
+</code></pre>
+<p><strong>设置单元格的宽度</strong></p>
+<pre><code class="python">import xltw
+workbook = xlwt.Workbook()
+worksheet = workbook.add_sheet(&#39;My Sheet&#39;)
+worksheet.write(0, 0, &#39;My Cell Contents&#39;)
+worksheet.col(0).width = 3333 # 3333 = 1&quot; (one inch).
+workbook.save(&#39;Excel_Workbook.xls&#39;)
+</code></pre>
+<p><strong>在单元格中输入日期</strong></p>
+<pre><code class="python">import xlwt
+import datetime
+workbook = xlwt.Workbook()
+worksheet = workbook.add_sheet(&#39;My Sheet&#39;)
+style = xlwt.XFStyle()
+style.num_format_str = &#39;M/D/YY&#39; # Other options: D-MMM-YY, D-MMM, MMM-YY, h:mm, h:mm:ss, h:mm, h:mm:ss, M/D/YY h:mm, mm:ss, [h]:mm:ss, mm:ss.0
+worksheet.write(0, 0, datetime.datetime.now(), style)
+workbook.save(&#39;Excel_Workbook.xls&#39;)
+</code></pre>
+<p><strong>给单元格添加一个公式</strong></p>
+<pre><code class="python">import xlwt
+workbook = xlwt.Workbook()
+worksheet = workbook.add_sheet(&#39;My Sheet&#39;)
+worksheet.write(0, 0, 5) # Outputs 5
+worksheet.write(0, 1, 2) # Outputs 2
+worksheet.write(1, 0, xlwt.Formula(&#39;A1*B1&#39;)) # Should output &quot;10&quot; (A1[5] * A2[2])
+worksheet.write(1, 1, xlwt.Formula(&#39;SUM(A1,B1)&#39;)) # Should output &quot;7&quot; (A1[5] + A2[2])
+workbook.save(&#39;Excel_Workbook.xls&#39;)
+</code></pre>
+<p><strong>将一个超链接添加到单元格</strong></p>
+<pre><code class="python">import xlwt
+workbook = xlwt.Workbook()
+worksheet = workbook.add_sheet(&#39;My Sheet&#39;)
+worksheet.write(0, 0, xlwt.Formula(&#39;HYPERLINK(&quot;http://www.google.com&quot;;&quot;Google&quot;)&#39;)) # Outputs the text &quot;Google&quot; linking to http://www.google.com
+workbook.save(&#39;Excel_Workbook.xls&#39;)
+</code></pre>
+<p><strong>合并列和行</strong></p>
+<pre><code class="python">import xlwt
+workbook = xlwt.Workbook()
+worksheet = workbook.add_sheet(&#39;My Sheet&#39;)
+worksheet.write_merge(0, 0, 0, 3, &#39;First Merge&#39;) # Merges row 0&#39;s columns 0 through 3.
+font = xlwt.Font() # Create Font
+font.bold = True # Set font to Bold
+style = xlwt.XFStyle() # Create Style
+style.font = font # Add Bold Font to Style
+worksheet.write_merge(1, 2, 0, 3, &#39;Second Merge&#39;, style) # Merges row 1 through 2&#39;s columns 0 through 3.
+workbook.save(&#39;Excel_Workbook.xls&#39;)
+</code></pre>
+<p><strong>设置单元格内容的对齐方式</strong></p>
+<pre><code class="python">import xlwt
+workbook = xlwt.Workbook()
+worksheet = workbook.add_sheet(&#39;My Sheet&#39;)
+alignment = xlwt.Alignment() # Create Alignment
+alignment.horz = xlwt.Alignment.HORZ_CENTER # May be: HORZ_GENERAL, HORZ_LEFT, HORZ_CENTER, HORZ_RIGHT, HORZ_FILLED, HORZ_JUSTIFIED, HORZ_CENTER_ACROSS_SEL, HORZ_DISTRIBUTED
+alignment.vert = xlwt.Alignment.VERT_CENTER # May be: VERT_TOP, VERT_CENTER, VERT_BOTTOM, VERT_JUSTIFIED, VERT_DISTRIBUTED
+style = xlwt.XFStyle() # Create Style
+style.alignment = alignment # Add Alignment to Style
+worksheet.write(0, 0, &#39;Cell Contents&#39;, style)
+workbook.save(&#39;Excel_Workbook.xls&#39;)
+</code></pre>
+<p><strong>将边框添加到单元格</strong></p>
+<pre><code class="python"># Please note: While I was able to find these constants within the source code, on my system (using LibreOffice,) I was only presented with a solid line, varying from thin to thick; no dotted or dashed lines.
+import xlwt
+workbook = xlwt.Workbook()
+worksheet = workbook.add_sheet(&#39;My Sheet&#39;)
+borders = xlwt.Borders() # Create Borders
+borders.left = xlwt.Borders.DASHED # May be: NO_LINE, THIN, MEDIUM, DASHED, DOTTED, THICK, DOUBLE, HAIR, MEDIUM_DASHED, THIN_DASH_DOTTED, MEDIUM_DASH_DOTTED, THIN_DASH_DOT_DOTTED, MEDIUM_DASH_DOT_DOTTED, SLANTED_MEDIUM_DASH_DOTTED, or 0x00 through 0x0D.
+borders.right = xlwt.Borders.DASHED
+borders.top = xlwt.Borders.DASHED
+borders.bottom = xlwt.Borders.DASHED
+borders.left_colour = 0x40
+borders.right_colour = 0x40
+borders.top_colour = 0x40
+borders.bottom_colour = 0x40
+style = xlwt.XFStyle() # Create Style
+style.borders = borders # Add Borders to Style
+worksheet.write(0, 0, &#39;Cell Contents&#39;, style)
+workbook.save(&#39;Excel_Workbook.xls&#39;)
+</code></pre>
+<p><strong>设置单元格的背景颜色</strong></p>
+<pre><code class="python">import xlwt
+workbook = xlwt.Workbook()
+worksheet = workbook.add_sheet(&#39;My Sheet&#39;)
+pattern = xlwt.Pattern() # Create the Pattern
+pattern.pattern = xlwt.Pattern.SOLID_PATTERN # May be: NO_PATTERN, SOLID_PATTERN, or 0x00 through 0x12
+pattern.pattern_fore_colour = 5 # May be: 8 through 63. 0 = Black, 1 = White, 2 = Red, 3 = Green, 4 = Blue, 5 = Yellow, 6 = Magenta, 7 = Cyan, 16 = Maroon, 17 = Dark Green, 18 = Dark Blue, 19 = Dark Yellow , almost brown), 20 = Dark Magenta, 21 = Teal, 22 = Light Gray, 23 = Dark Gray, the list goes on...
+style = xlwt.XFStyle() # Create the Pattern
+style.pattern = pattern # Add Pattern to Style
+worksheet.write(0, 0, &#39;Cell Contents&#39;, style)
+workbook.save(&#39;Excel_Workbook.xls&#39;)
+</code></pre>
+
         
                 <blockquote style="margin: 2em 0 0;padding: 0.5em 1em;border-left: 3px solid #F44336;background-color: #F5F5F5;list-style: none;">
                     <p><strong>
@@ -510,7 +639,7 @@
                             本作品采用 <a rel="license nofollow" target="_blank" href="[http://creativecommons.org/licenses/by-sa/4.0/](http://creativecommons.org/licenses/by-sa/4.0/)">知识共享署名-相同方式共享 4.0 国际许可协议</a> 进行许可
                         </strong>
                         <br>
-                        <strong>本文链接：</strong><a href="http://ljd1995.github.io/2017/11/19/studythinking/">http://ljd1995.github.io/2017/11/19/studythinking/</a>
+                        <strong>本文链接：</strong><a href="http://ljd1995.github.io/2017/12/16/learn-python-xlwt-md/">http://ljd1995.github.io/2017/12/16/learn-python-xlwt-md/</a>
                     </p>
                 </blockquote>
         
@@ -558,21 +687,13 @@
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/2017/11/19/zhihuLogin/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            新篇
-        </a>
-    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
     
-        <a href="/2017/11/18/linux2work/" id="post_nav-older" class="next-content">
+        <a href="/2017/11/19/zhihuLogin/" id="post_nav-older" class="next-content">
             旧篇
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
