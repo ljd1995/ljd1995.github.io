@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ljd1995.github.io/"/>
-  <updated>2017-12-16T08:08:30.406Z</updated>
+  <updated>2017-12-24T15:29:49.125Z</updated>
   <id>http://ljd1995.github.io/</id>
   
   <author>
@@ -17,11 +17,40 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Python高级编程技巧</title>
+    <link href="http://ljd1995.github.io/2017/12/24/python-advanced-skills/"/>
+    <id>http://ljd1995.github.io/2017/12/24/python-advanced-skills/</id>
+    <published>2017-12-24T15:29:49.000Z</published>
+    <updated>2017-12-24T15:29:49.125Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;python学习过程中一些编程技巧总结&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;统计序列中元素的出现频度&quot;&gt;&lt;a href=&quot;#统计序列中元素的出现频度&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="http://ljd1995.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="http://ljd1995.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
     <title>python使用xlwt操作Excel，字体、单元格设置等知识</title>
     <link href="http://ljd1995.github.io/2017/12/16/learn-python-xlwt-md/"/>
     <id>http://ljd1995.github.io/2017/12/16/learn-python-xlwt-md/</id>
     <published>2017-12-16T07:53:55.000Z</published>
-    <updated>2017-12-16T08:08:30.406Z</updated>
+    <updated>2017-12-16T08:27:49.809Z</updated>
     
     <summary type="html">
     
