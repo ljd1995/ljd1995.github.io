@@ -18,6 +18,18 @@ with open(r&#39;C:\Users\95250\Desktop\english.txt&#39;,&#39;r&#39;) as f:
     data = Counter(re.split(&#39;\W+&#39;,txt))
     print data.most_common(10)
 </code></pre>
+<p><strong>输出结果</strong> </p>
+<pre><code class="python">[(&#39;the&#39;, 2420),
+ (&#39;and&#39;, 1392),
+ (&#39;of&#39;, 925),
+ (&#39;to&#39;, 711),
+ (&#39;a&#39;, 585),
+ (&#39;he&#39;, 531),
+ (&#39;her&#39;, 528),
+ (&#39;in&#39;, 491),
+ (&#39;his&#39;, 414),
+ (&#39;was&#39;, 413)]
+</code></pre>
 <p>统计文本：</p>
 <pre><code>PREFACE
 As a child, I was fond of stories, and well remember the dearth of the intermediate season, when &quot;Jack the Giant Killer,&quot; had ceased to please, and I was yet unprepared to enjoy works written for older and more cultivated minds. Children require stories ingeniously written, with a pleasant tinge of romance about them to fix their attention, and a touch of pathos that goes to the heart, to make them good and happy.
