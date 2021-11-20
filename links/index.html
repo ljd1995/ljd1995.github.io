@@ -12,6 +12,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  
   <meta name="theme-color" content="#2f4154">
   <meta name="description" content="">
   <meta name="author" content="Jack Luo">
@@ -255,7 +257,7 @@
     Fluid.utils.loadComments('#waline', function() {
       Fluid.utils.createScript('https://cdn.jsdelivr.net/npm/@waline/client@1/dist/Waline.min.js', function() {
         var options = Object.assign(
-          {"serverURL":"https://blog-comment-elt2fv4ax-jackless.vercel.app","path":"window.location.pathname","placeholder":"有什么问题尽管问","meta":["nick","mail","link"],"requiredMeta":["nick"],"lang":"zh-CN","emoji":["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"],"dark":"html[data-user-color-scheme=\"dark\"]","avatar":"retro","avatarCDN":"https://seccdn.libravatar.org/avatar/","avatarForce":false,"wordLimit":0,"pageSize":10,"highlight":true},
+          {"serverURL":"https://blog-comment-elt2fv4ax-jackless.vercel.app","path":"window.location.pathname","placeholder":"有什么问题尽管问,请文明发言","meta":["nick","mail","link"],"requiredMeta":["nick"],"lang":"zh-CN","emoji":["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"],"dark":"html[data-user-color-scheme=\"dark\"]","avatar":"retro","avatarCDN":"https://seccdn.libravatar.org/avatar/","avatarForce":false,"wordLimit":0,"pageSize":10,"highlight":true},
           {
             el: '#waline',
             path: window.location.pathname
