@@ -4,6 +4,41 @@
   
     
     <entry>
+      <title>博客撰写计划</title>
+      <link href="/post/1355135405/"/>
+      <url>/post/1355135405/</url>
+      
+        <content type="html"><![CDATA[<div class="note primary flat"><p>运维管理平台项目</p></div><div class='checkbox'><input type="checkbox" />            <p>CMDB</p>            </div><div class='checkbox'><input type="checkbox" />            <p>WEBSSH</p>            </div><div class='checkbox'><input type="checkbox" />            <p>任务管理</p>            </div><div class='checkbox'><input type="checkbox" />            <p>发布部署</p>            </div><div class='checkbox'><input type="checkbox" />            <p>操作日志</p>            </div><div class='checkbox'><input type="checkbox" />            <p>权限管理</p>            </div><div class='checkbox'><input type="checkbox" />            <p>用户管理</p>            </div><div class="note info flat"><p>模拟K8s管理系统</p></div><div class='checkbox'><input type="checkbox" />            <p>docker管理</p>            </div><div class='checkbox'><input type="checkbox" />            <p>容器调度</p>            </div><div class='checkbox'><input type="checkbox" />            <p>容器编排</p>            </div><div class="note success flat"><p>模拟salt/Ansible</p></div><div class='checkbox'><input type="checkbox" />            <p>SSH形式、C/S模式、websocket长连接模式</p>            </div><div class='checkbox'><input type="checkbox" />            <p>Ad-hoc</p>            </div><div class='checkbox'><input type="checkbox" />            <p>playbook</p>            </div><div class="note warning flat"><p>分布式监控系统</p></div><div class='checkbox'><input type="checkbox" />            <p>模仿zabbix、open-falcon、promethus等</p>            </div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+          <category> 分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+            <tag> go </tag>
+            
+            <tag> devops </tag>
+            
+            <tag> linux </tag>
+            
+            <tag> 运维 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/post/3eeb/"/>
       <url>/post/3eeb/</url>
