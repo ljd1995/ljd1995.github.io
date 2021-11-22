@@ -4,9 +4,42 @@
   
     
     <entry>
+      <title>模拟saltstack/ansible系列一（序言）</title>
+      <link href="/post/e4dbd1fc/"/>
+      <url>/post/e4dbd1fc/</url>
+      
+        <content type="html"><![CDATA[<h2 id="序言"><a href="#序言" class="headerlink" title="序言"></a>序言</h2><h3 id="项目介绍"><a href="#项目介绍" class="headerlink" title="项目介绍"></a>项目介绍</h3><ul><li>做过运维的同学应该都知道，<mark class="hl-label blue">saltstack</mark> 和<mark class="hl-label green">ansible</mark> 都是运维常用的自动化工具，可以用来做批量系统配置、批量程序部署、批量运行命令等功能</li><li>本教程将分析saltstack和ansible的核心功能实现，然后自己用<mark class="hl-label pink">Python</mark> 实现一个类似saltstack和ansible的项目</li></ul><h3 id="saltstack、ansible原理"><a href="#saltstack、ansible原理" class="headerlink" title="saltstack、ansible原理"></a>saltstack、ansible原理</h3><blockquote><p>ansible</p></blockquote><ul><li>无Agent架构，基于SSH</li><li>ansible playbook可以按任务对批量主机编排</li><li>Python语言开发</li></ul><blockquote><p>saltstack</p></blockquote><ul><li>Agent架构，基于长连接</li><li>可以通过state文件来对批量主机编排</li><li>Python语言开发</li></ul><h2 id="自己如何开发一个实现ansible和saltstack基本功能的程序？"><a href="#自己如何开发一个实现ansible和saltstack基本功能的程序？" class="headerlink" title="自己如何开发一个实现ansible和saltstack基本功能的程序？"></a>自己如何开发一个实现ansible和saltstack基本功能的程序？</h2><h3 id="具体实现功能"><a href="#具体实现功能" class="headerlink" title="具体实现功能"></a>具体实现功能</h3><div class='checkbox green checked'><input type="checkbox" checked="checked"/>            <p>主机连接模式</p>            </div><ul><li>SSH连接模式</li><li>C/S模式</li><li>websocket长连接模式</li></ul><div class='checkbox red checked'><input type="checkbox" checked="checked"/>            <p>Ad-hoc</p>            </div><ul><li>ping功能</li><li>执行命令功能</li><li>copy文件功能</li><li>fetch文件功能</li></ul><div class='checkbox blue checked'><input type="checkbox" checked="checked"/>            <p>模拟playbook、state文件执行</p>            </div><ul><li>YAML读取</li><li>模板文件读取与配置</li><li>根据配置执行方法</li></ul><div class='checkbox pink checked'><input type="checkbox" checked="checked"/>            <p>模拟ansible和saltstack命令行参数功能</p>            </div><h3 id="开发语言"><a href="#开发语言" class="headerlink" title="开发语言"></a>开发语言</h3><p>Python（也可以用Go，主要是本人部门主用Python）</p><h3 id="使用的Python模块"><a href="#使用的Python模块" class="headerlink" title="使用的Python模块"></a>使用的Python模块</h3><ul><li>paramiko: SSH连接、SFTP上传下载文件、执行命令</li><li>ruamel/PyYaml: 解析YAML配置文件</li><li>jinja2: 模板引擎</li><li>click： 命令行模块</li><li>flask/sanic: web框架，agent使用</li><li>geventwebsocket： websocket服务端</li><li>websocket： websocket客户端</li><li>redis: 作为MQ，也可以用其他MQ</li><li>colorama：终端输入颜色字体</li><li>requests/httpx: http请求框架</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+          <category> 分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+            <tag> devops </tag>
+            
+            <tag> linux </tag>
+            
+            <tag> 运维 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>博客撰写计划</title>
-      <link href="/post/1355135405/"/>
-      <url>/post/1355135405/</url>
+      <link href="/post/50c5b9ad/"/>
+      <url>/post/50c5b9ad/</url>
       
         <content type="html"><![CDATA[<div class="note primary flat"><p>运维管理平台项目</p></div><div class='checkbox'><input type="checkbox" />            <p>CMDB</p>            </div><div class='checkbox'><input type="checkbox" />            <p>WEBSSH</p>            </div><div class='checkbox'><input type="checkbox" />            <p>任务管理</p>            </div><div class='checkbox'><input type="checkbox" />            <p>发布部署</p>            </div><div class='checkbox'><input type="checkbox" />            <p>操作日志</p>            </div><div class='checkbox'><input type="checkbox" />            <p>权限管理</p>            </div><div class='checkbox'><input type="checkbox" />            <p>用户管理</p>            </div><div class="note info flat"><p>模拟K8s管理系统</p></div><div class='checkbox'><input type="checkbox" />            <p>docker管理</p>            </div><div class='checkbox'><input type="checkbox" />            <p>容器调度</p>            </div><div class='checkbox'><input type="checkbox" />            <p>容器编排</p>            </div><div class="note success flat"><p>模拟salt/Ansible</p></div><div class='checkbox'><input type="checkbox" />            <p>SSH形式、C/S模式、websocket长连接模式</p>            </div><div class='checkbox'><input type="checkbox" />            <p>Ad-hoc</p>            </div><div class='checkbox'><input type="checkbox" />            <p>playbook</p>            </div><div class="note warning flat"><p>分布式监控系统</p></div><div class='checkbox'><input type="checkbox" />            <p>模仿zabbix、open-falcon、promethus等</p>            </div>]]></content>
       
@@ -40,8 +73,8 @@
     
     <entry>
       <title>Hello World</title>
-      <link href="/post/3eeb/"/>
-      <url>/post/3eeb/</url>
+      <link href="/post/4a17b156/"/>
+      <url>/post/4a17b156/</url>
       
         <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post221&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
