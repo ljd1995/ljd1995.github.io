@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>岁月随心，终会淡然</title>
+  <icon>https://jackless.cf/icon.png</icon>
+  <subtitle>Python、Go、DevOps、Docker、Kubernetes</subtitle>
+  <link href="https://jackless.cf/atom.xml" rel="self"/>
+  
+  <link href="https://jackless.cf/"/>
+  <updated>2021-11-23T07:58:06.119Z</updated>
+  <id>https://jackless.cf/</id>
+  
+  <author>
+    <name>Jackless</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>M1 MAC安装ubuntu系统的另一个选择-Multipass</title>
+    <link href="https://jackless.cf/post/510972a/"/>
+    <id>https://jackless.cf/post/510972a/</id>
+    <published>2021-11-23T07:00:01.000Z</published>
+    <updated>2021-11-23T07:58:06.119Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;note primary modern&quot;&gt;&lt;p&gt;缘起&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;今年Apple发布了新款搭载M1 Pro和M1 Max芯片的Macbook</summary>
+        
+      
+    
+    
+    
+    <category term="分享" scheme="https://jackless.cf/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="linux" scheme="https://jackless.cf/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>模拟saltstack/ansible系列一（序言）</title>
+    <link href="https://jackless.cf/post/e4dbd1fc/"/>
+    <id>https://jackless.cf/post/e4dbd1fc/</id>
+    <published>2021-11-22T13:12:52.000Z</published>
+    <updated>2021-11-22T14:04:23.631Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;序言&quot;&gt;&lt;a href=&quot;#序言&quot; class=&quot;headerlink&quot; title=&quot;序言&quot;&gt;&lt;/a&gt;序言&lt;/h2&gt;&lt;h3 id=&quot;项目介绍&quot;&gt;&lt;a href=&quot;#项目介绍&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://jackless.cf/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="分享" scheme="https://jackless.cf/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="python" scheme="https://jackless.cf/tags/python/"/>
+    
+    <category term="devops" scheme="https://jackless.cf/tags/devops/"/>
+    
+    <category term="linux" scheme="https://jackless.cf/tags/linux/"/>
+    
+    <category term="运维" scheme="https://jackless.cf/tags/%E8%BF%90%E7%BB%B4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客撰写计划</title>
+    <link href="https://jackless.cf/post/50c5b9ad/"/>
+    <id>https://jackless.cf/post/50c5b9ad/</id>
+    <published>2021-11-21T11:26:37.000Z</published>
+    <updated>2021-11-21T12:58:37.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;note danger</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://jackless.cf/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="分享" scheme="https://jackless.cf/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="python" scheme="https://jackless.cf/tags/python/"/>
+    
+    <category term="go" scheme="https://jackless.cf/tags/go/"/>
+    
+    <category term="devops" scheme="https://jackless.cf/tags/devops/"/>
+    
+    <category term="linux" scheme="https://jackless.cf/tags/linux/"/>
+    
+    <category term="运维" scheme="https://jackless.cf/tags/%E8%BF%90%E7%BB%B4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://jackless.cf/post/4a17b156/"/>
+    <id>https://jackless.cf/post/4a17b156/</id>
+    <published>2021-11-18T11:26:37.000Z</published>
+    <updated>2021-11-22T14:08:00.321Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
