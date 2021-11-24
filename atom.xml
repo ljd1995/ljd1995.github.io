@@ -6,7 +6,7 @@
   <link href="https://jackless.cf/atom.xml" rel="self"/>
   
   <link href="https://jackless.cf/"/>
-  <updated>2021-11-24T13:45:52.675Z</updated>
+  <updated>2021-11-24T15:26:53.888Z</updated>
   <id>https://jackless.cf/</id>
   
   <author>
@@ -17,12 +17,20 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>模拟 saltstack/ansible 系列三（基于短连接实现salt主要功能）</title>
-    <link href="https://jackless.cf/post/bbf51578/"/>
-    <id>https://jackless.cf/post/bbf51578/</id>
+    <title>模拟 saltstack/ansible 系列三（基于短连接实现saltstack主要功能）</title>
+    <link href="https://jackless.cf/post/3de380ec/"/>
+    <id>https://jackless.cf/post/3de380ec/</id>
     <published>2021-11-24T13:44:31.000Z</published>
-    <updated>2021-11-24T13:45:52.675Z</updated>
+    <updated>2021-11-24T15:26:53.888Z</updated>
     
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
     
     
     
