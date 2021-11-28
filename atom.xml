@@ -6,7 +6,7 @@
   <link href="https://jackless.cf/atom.xml" rel="self"/>
   
   <link href="https://jackless.cf/"/>
-  <updated>2021-11-28T09:26:53.782Z</updated>
+  <updated>2021-11-28T11:42:39.502Z</updated>
   <id>https://jackless.cf/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>模拟-saltstack-ansible-系列四（基于长连接实现salt主要功能）</title>
-    <link href="https://jackless.cf/post/95edc27c/"/>
-    <id>https://jackless.cf/post/95edc27c/</id>
+    <title>模拟 saltstack/ansible系列四（基于长连接实现salt主要功能）</title>
+    <link href="https://jackless.cf/post/1c8b7bb6/"/>
+    <id>https://jackless.cf/post/1c8b7bb6/</id>
     <published>2021-11-28T08:29:51.000Z</published>
-    <updated>2021-11-28T09:26:53.782Z</updated>
+    <updated>2021-11-28T11:42:39.502Z</updated>
     
     
       
