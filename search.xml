@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>ITIL和DevOps</title>
+      <link href="/post/679a57d2/"/>
+      <url>/post/679a57d2/</url>
+      
+        <content type="html"><![CDATA[<h2 id="ITIL"><a href="#ITIL" class="headerlink" title="ITIL"></a>ITIL</h2><p>ITIL即IT基础架构库(Information Technology Infrastructure Library, ITIL，信息技术基础架构库)由英国政府部门CCTA(Central Computing and Telecommunications Agency)在20世纪80年代末制订，现由英国商务部OGC(Office of Government Commerce)负责管理，主要适用于IT服务管理（ITSM）。ITIL为企业的IT服务管理实践提供了一个客观、严谨、可量化的标准和规范。</p><p><strong>1、事件管理（Incident Management）</strong></p><p>事故管理负责记录、归类和安排专家处理事故并监督整个处理过程直至事故得到解决和终止。事故管理的目的是在尽可能最小地影响客户和用户业务的情况下使IT系统恢复到服务级别协议所定义的服务级别。</p><p><strong>2、问题管理（Problem Management）</strong></p><p>问题管理是指通过调查和分析IT基础架构的薄弱环节、查明事故产生的潜在原因，并制定解决事故的方案和防止事故再次发生的措施，将由于问题和事故对业务产生的负面影响减小到最低的服务管理流程。与事故管理强调事故恢复的速度不同，问题管理强调的是找出事故产生的根源，从而制定恰当的解决方案或防止其再次发生的预防措施。</p><p><strong>3、配置管理（Configuration Management）</strong></p><p>配置管理是识别和确认系统的配置项，记录和报告配置项状态和变更请求，检验配置项的正确性和完整性等活动构成的过程，其目的是提供IT基础架构的逻辑模型，支持其它服务管理流程特别是变更管理和发布管理的运作。</p><p><strong>4、变更管理（Change Management）</strong></p><p>变更管理是指为在最短的中断时间内完成基础架构或服务的任一方面的变更而对其进行控制的服务管理流程。变更管理的目标是确保在变更实施过程中使用标准的方法和步骤，尽快地实施变更，以将由变更所导致的业务中断对业务的影响减小到最低。</p><p><strong>5、发布管理（Release Management）</strong></p><p>发布管理是指对经过测试后导入实际应用的新增或修改后的配置项进行分发和宣传的管理流程。发布管理以前又称为软件控制与分发</p><h3 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h3><p>事件管理的目标是在不影响业务的情况下，尽可能快速的恢复服务，从而保证最佳的效率和服务的可持续性。事件管理流程的建立包括事件分类，确定事件的优先级和建立事件的升级机制。</p><p>问题管理是调查基础设施和所有可用信息，包括事件数据库，来确定引起事件发生的真正潜在原因，一起提供的服务中可能存在的故障。</p><p>配置管理的目标是：定义和控制服务与基础设施的部件，并保持准确的配置信息。</p><p>变更管理的目标是：以受控的方式，确保所有变更得到评估、批准、实施和评审。</p><p>发布管理的目标是：在实际运行环境的发布中，交付、分发并跟踪一个或多个变更。</p><h2 id="DEVOPS"><a href="#DEVOPS" class="headerlink" title="DEVOPS"></a>DEVOPS</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>DevOps维基百科定义 DevOps（Development和Operations的组合词）是一种重视“软件开发人员（Dev）”和“IT运维技术人员（Ops）”之间沟通合作的文化、运动或惯例。透过自动化“软件交付”和“架构变更”的流程，来使得构建、测试、发布软件能够更加地快捷、频繁和可靠。</p><p>DevOps 其实包含了三个部分：开发、测试和运维。换句话 DevOps 希望做到的是软件产品交付过程中IT工具链的打通，使得各个团队减少时间损耗，更加高效地协同工作。</p><p>简而言之，DevOps是一组最佳实践，是一个方法论，DevOps 强调整个组织的合作以及交付和基础设施变更的自动化、从而实现持续集成、持续交付和持续部署。</p><h3 id="相关概念"><a href="#相关概念" class="headerlink" title="相关概念"></a>相关概念</h3><p>互联网软件从开发到上线，后续迭代更新，已经有一套近乎标准的流程</p><p><strong>持续集成（Continuous integration）</strong><br>持续集成是一种软件开发实践，即团队开发成员经常集成他们的工作，通常每个成员每天至少集成一次，也就意味着每天可能会发生多次集成。每次集成都通过自动化的构建（包括编译，发布，自动化测试)来验证，从而尽快地发现集成错误。许多团队发现这个过程可以大大减少集成的问题，让团队能够更快的开发内聚的软件。</p><p>简单说，持续集成就是指频繁自动将代码集成到主干和生产环境</p><p><strong>持续交付（Continuous delivery）</strong><br>持续交付（Continuous delivery）指的是，频繁地将软件的新版本，交付给质量团队或者用户，以供评审。如果评审通过，代码就进入生产阶段。 持续交付可以看作持续集成的下一步。它强调的是，不管怎么更新，软件是随时随地可以交付的。注意，持续交付在自动化测试和集成结束后，不一定会自动部署。如果有自动部署，则是持续部署的概念了</p><p><strong>持续部署 （continuous deployment）</strong><br>持续部署（continuous deployment）则是持续交付的下一步，代码通过评审，自动化部署到生产环境。其目的是可以随时部署，迅速投入生产阶段。持续部署这一步，意味着产品和观众见面，但是要通过重重考验，测试、构建、部署等步骤，而且每一步都是自动的。</p><p><a href="https://www.redhat.com/zh/topics/devops/what-is-ci-cd" title="CI/CD是什么？如何理解持续集成、持续交付和持续部署">CI/CD是什么？如何理解持续集成、持续交付和持续部署</a></p><h3 id="DevOps-工具链"><a href="#DevOps-工具链" class="headerlink" title="DevOps 工具链"></a>DevOps 工具链</h3><ul><li>项目管理（PM）：Jira</li><li>代码管理：GitLab</li><li>持续集成（CI）：GitLab CI、Jenkins</li><li>镜像仓库：VMware Harbor</li><li>容器：Docker</li><li>容器平台： Rancher</li><li>镜像扫描：Clairctl</li><li>编排：Kubernetes</li><li>服务注册与发现：etcd</li><li>脚本语言：python、go</li><li>日志管理：EFK</li><li>系统监控：prometheus</li><li>Web服务器：Nginx</li><li>数据库：MySQL Postgresql redis</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 运维 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Web后端开发知识点</title>
       <link href="/post/c3df8a2e/"/>
       <url>/post/c3df8a2e/</url>

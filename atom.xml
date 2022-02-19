@@ -6,7 +6,7 @@
   <link href="https://jackless.cf/atom.xml" rel="self"/>
   
   <link href="https://jackless.cf/"/>
-  <updated>2022-02-19T00:08:02.323Z</updated>
+  <updated>2022-02-19T00:14:08.740Z</updated>
   <id>https://jackless.cf/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>ITIL和DevOps</title>
+    <link href="https://jackless.cf/post/679a57d2/"/>
+    <id>https://jackless.cf/post/679a57d2/</id>
+    <published>2022-02-19T00:13:52.000Z</published>
+    <updated>2022-02-19T00:14:08.740Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;ITIL&quot;&gt;&lt;a href=&quot;#ITIL&quot; class=&quot;headerlink&quot; title=&quot;ITIL&quot;&gt;&lt;/a&gt;ITIL&lt;/h2&gt;&lt;p&gt;ITIL即IT基础架构库(Information Technology Infrastructure Library,</summary>
+        
+      
+    
+    
+    
+    <category term="分享" scheme="https://jackless.cf/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="运维" scheme="https://jackless.cf/tags/%E8%BF%90%E7%BB%B4/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Web后端开发知识点</title>
     <link href="https://jackless.cf/post/c3df8a2e/"/>
     <id>https://jackless.cf/post/c3df8a2e/</id>
     <published>2022-02-19T00:12:52.000Z</published>
-    <updated>2022-02-19T00:08:02.323Z</updated>
+    <updated>2022-02-19T00:08:17.496Z</updated>
     
     
       
