@@ -6,7 +6,7 @@
   <link href="https://jackless.cf/atom.xml" rel="self"/>
   
   <link href="https://jackless.cf/"/>
-  <updated>2021-11-28T12:08:27.165Z</updated>
+  <updated>2022-02-19T00:08:02.323Z</updated>
   <id>https://jackless.cf/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Web后端开发知识点</title>
+    <link href="https://jackless.cf/post/c3df8a2e/"/>
+    <id>https://jackless.cf/post/c3df8a2e/</id>
+    <published>2022-02-19T00:12:52.000Z</published>
+    <updated>2022-02-19T00:08:02.323Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;做Web后端开发需要学习什么&quot;&gt;&lt;a href=&quot;#做Web后端开发需要学习什么&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://jackless.cf/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="分享" scheme="https://jackless.cf/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="python" scheme="https://jackless.cf/tags/python/"/>
+    
+    <category term="go" scheme="https://jackless.cf/tags/go/"/>
+    
+  </entry>
   
   <entry>
     <title>模拟 saltstack/ansible系列四（基于长连接实现salt主要功能）</title>
